@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<head>
+	<title>Calorie Calculator</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+	<body>
+		<div id="container">
+			<h1>Calorie Calculator</h1>
+			<p>I want to:</p>
+			<ul>
+				<li class="maintain">Maintain my weight</li>
+				<li class="gain">Gain my weight</li>
+				<li class="lose">Lose my weight</li>
+			</ul>
+			<input id='desiredNumber' autocapitalize='off' autocomplete='off' autofocus=''>
+			<button id="next">
+				Next
+			</button>
+			<div id="user-data">
+				<section>
+					<label>Age:<input id="userAge" type="number" name="age" value="21"></label>
+				</section>
+				<section>
+					<label>Height:<select id="userHeight" name="height">
+						<option value="149.86">4' 11" / 150 cm</option>
+						<option value="152.4">5' 0" / 152 cm</option>
+						<option value="154.94">5' 1" / 155 cm</option>
+						<option value="157.48">5' 2" / 157 cm</option>
+						<option value="160.02">5' 3" / 160 cm</option>
+						<option value="162.56">5' 4" / 163 cm</option>
+						<option value="165.1">5' 5" / 165 cm</option>
+						<option value="167.64">5' 6" / 168 cm</option>
+						<option value="170.18" selected="selected">5' 7" / 170 cm</option>
+						<option value="172.72">5' 8" / 173 cm</option>
+						<option value="175.26">5' 9" / 175 cm</option>
+						<option value="177.8">5' 10" / 178 cm</option>
+						<option value="180.34">5' 11" / 180 cm</option>
+						<option value="182.88">6' 0" / 183 cm</option>
+						<option value="185.42">6' 1" / 185 cm</option>
+						<option value="187.96">6' 2" / 188 cm</option>
+						<option value="190.5">6' 3" / 191 cm</option>
+						<option value="193.04">6' 4" / 193 cm</option>
+						<option value="195.58">6' 5" / 196 cm</option>
+						<option value="198.12">6' 6" / 198 cm</option>
+						<option value="200.66">6' 7" / 201 cm</option>
+						<option value="203.2">6' 8" / 203 cm</option>
+						<option value="205.74">6' 9" / 206 cm</option>
+						<option value="208.28">6' 10" / 208 cm</option>
+						<option value="210.82">6' 11" / 211 cm</option>
+					</select></label>
+				</section>
+				<section>
+					<label>Weight(kg):<input id="userWeight" type="number" name="weight" value="59"></label>
+				</section>
+				<section>
+					<label>Gender:<select id="userSex" name="gender">
+						<option value="male">Male</option>
+						<option value="female">Female</option>
+					</select></label>
+				</section>
+				<section>
+					<label>Exercise:<select id="userExercise" name="exercise">
+						<option value="1.2">Little to no exercise</option>
+						<option value="1.375">Somewhat active</option>
+						<option value="1.55">Moderately active</option>
+						<option value="1.95">Very active</option>
+					</select></label>
+				</section>
+				<button id="calculate" class="active">
+					Calculate
+				</button>
+			</div>
+		</div>
+		<footer>
+			<h6>Made by <a href="http://hoonah.github.io">William Song</a></h6>
+		</footer>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+		<script src="calculator.js"></script>
+	</body>
+</html>

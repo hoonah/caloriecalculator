@@ -1,0 +1,180 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CALORIE CALCULATOR */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+:root {
+	font: 400 1rem "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body {
+	background-color: #EBEBEB;
+}
+h1 {
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+h3, h4, ul li, #desiredNumber, section input, select  {
+	text-align: center;
+}
+h3 {
+	font-size: 5rem;
+	color: #459DF3;
+	font-weight: 100;
+	margin-top: 2rem;
+	margin-bottom: 0.5rem;
+}
+h4 {
+	color: #808080;
+}
+h6 {
+	margin: 1rem;
+	font-size: 0.8rem;
+}
+a {
+	text-decoration: none;
+	color: #459DF3 ;
+}
+p {
+	margin: 2rem 0 1rem 0;
+	color: #949494;
+}
+ul {
+	border: 1px solid #CACACA;
+	border-radius: 8px;
+}
+ul li {
+	padding: 1rem 0;
+}
+ul li:nth-child(1) {
+	border-radius: 8px 8px 0 0;
+}
+ul li:nth-child(2) {
+	border-top: 1px solid #CACACA;
+	border-bottom: 1px solid #CACACA;
+	border-radius: 0px;
+}
+ul li:nth-child(3) {
+	border-radius: 0px 0px 8px 8px;
+}
+ul li:hover {
+	background-color: #F5F5F5;
+	cursor: pointer;
+}
+button, #desiredNumber, section input, select {
+	border: none;
+	width: 100%;
+	outline: none;
+}
+button, section input, select {
+	font-size: 1rem;
+}
+button {
+	border-radius: 6px;
+	background-color: #EBEBEB;
+	padding: 1.25rem;
+	font-weight: 700;
+	font-size: 1rem;
+	color: #FFF;
+	margin-top: 1rem;
+}
+section input, select {
+	font-weight: 500;
+}
+section {
+	padding: 1rem 0;
+	border-bottom: 1px solid #EFF0F2;
+}
+label {
+	font-size: 0.8rem;
+	color: #808080;
+	font-weight: 500;
+	text-transform: uppercase;
+	text-align: left;
+}
+select {
+	margin-top: 1rem;
+	height: 2rem;
+}
+footer {
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+}
+#container {
+	background-color: #FFF;
+	width: 30rem;
+	border-radius: 8px;
+	margin: 0 auto;
+	margin-top: 2rem;
+	box-shadow: 0px 8px 30px 0px rgba(0,0,0,0.20);
+	padding: 2rem;
+}
+#next {
+	display: none;
+}
+.selected {
+	background-color: #F5F5F5;
+}
+#desiredNumber {
+	display: none;
+	margin: 2rem 0;
+	font-weight: 100;
+	font-size: 3rem;
+}
+.active {
+	background-color: #19B5FE;
+	cursor: pointer;
+}
+#user-data {
+	display: none;
+}
