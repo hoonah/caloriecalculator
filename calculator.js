@@ -58,10 +58,10 @@ var CalorieCalculator = (function calculator() {
 			$p.text('To maintain your weight, you need:');
 			$p.after('<h3>'+bmrCalorie+'</h3><h4>Calories per day</h4>');
 		} else if (option[0].hasClass('gain')) {
-			$p.text('To gain '+value+' kg, you should eat at least:');
+			$p.text('To gain '+value+' kg, you should consume at least:');
 			$p.after('<h3>'+(bmrCalorie+500)+'</h3> <h4>Calories per day for ' + value/0.5 + ' weeks');
 		} else if (option[0].hasClass('lose')) {
-			$p.text('To lose '+value+' kg, you should eat no more than:');
+			$p.text('To lose '+value+' kg, you should consume no more than:');
 			$p.after('<h3>'+(bmrCalorie-500)+'</h3> <h4>Calories per day for ' + value/0.5 + ' weeks');
 		}
 		option.length = 0;
